@@ -1,0 +1,25 @@
+<view class="page">
+    
+    <view class="page__bd">
+      
+      
+        
+        <navigator url="/pages/foodtype/mainfood/mainfood" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+               <view class="weui-cell__bd">主食</view>
+               <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="/pages/foodtype/fruit/fruit" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+               <view class="weui-cell__bd">果蔬</view>
+               <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="/pages/foodtype/meat/meat" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+               <view class="weui-cell__bd">肉类</view>
+               <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+
+        
+    </view>
+</view>

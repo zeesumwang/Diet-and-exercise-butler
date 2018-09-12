@@ -1,0 +1,136 @@
+<!--index.wxml-->
+<view class="">
+  <view class="index_image">
+    <image style="width: 100%; height: 450rpx; background-color: #eeeeee;" mode="aspectFill" src="{{index_image}}"></image>
+  </view>
+  <view class="top">
+    <image style="width: 58rpx; height: 58rpx;"src="{{userInfo.avatarUrl}}"></image>
+    <text decode="{{true}}">&nbsp;{{userInfo.nickName}}占领了封面</text>
+  </view>
+
+  <view class="user weui-panel weui-panle_access">
+      <view class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg No">
+          <text></text>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg avatar">
+          <image class="weui-media-box__thumb " src="{{userInfo.avatarUrl}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title name">{{userInfo.nickName}}</view>
+          <view class="weui-media-box__desc">第1名</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg value">
+          <view class="weui-media-box__title">1000.23</view>
+          <view class="weui-media-box__desc" style=' display: flex;justify-content: center;'>千卡</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg dianzan">
+          <view class="weui-media-box__title" style=' display: flex;justify-content: center;'>3</view>
+          <image class="weui-media-box__desc" src="{{dianzan}}" />
+        </view>
+      </view>
+  </view>
+  <image class="juxing" src="{{juxing}}"></image>
+
+  <view class="paihang weui-panel weui-panle_access">
+      <view class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg No">
+          <text style='display: flex;align-items: center'>1</text>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg avatar">
+          <image class="weui-media-box__thumb " src="{{touxiang}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title name">{{userInfo.nickName}}</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg value">
+          <view class="weui-media-box__title">1000.23</view>
+          <view class="weui-media-box__desc" style=' display: flex;justify-content: center;'>千卡</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg dianzan">
+          <view class="weui-media-box__title" style=' display: flex;justify-content: center;'>3</view>
+          <image class="weui-media-box__desc" src="{{dianzan}}" />
+        </view>
+      </view>
+
+       <view class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg No">
+          <text style='display: flex;align-items: center'>2</text>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg avatar">
+          <image class="weui-media-box__thumb " src="{{touxiang}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title name">{{userInfo.nickName}}</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg value">
+          <view class="weui-media-box__title">1000.23</view>
+          <view class="weui-media-box__desc" style=' display: flex;justify-content: center;'>千卡</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg dianzan">
+          <view class="weui-media-box__title" style=' display: flex;justify-content: center;'>3</view>
+          <image class="weui-media-box__desc" src="{{dianzan1}}" />
+        </view>
+      </view>
+
+      <view class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg No">
+          <text style='display: flex;align-items: center'>3</text>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg avatar">
+          <image class="weui-media-box__thumb " src="{{touxiang}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title name">{{userInfo.nickName}}</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg value">
+          <view class="weui-media-box__title">1000.23</view>
+          <view class="weui-media-box__desc" style=' display: flex;justify-content: center;'>千卡</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg dianzan">
+          <view class="weui-media-box__title" style=' display: flex;justify-content: center;'>3</view>
+          <image class="weui-media-box__desc" src="{{dianzan1}}" />
+        </view>
+      </view>
+
+      <view class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg No">
+          <text style='display: flex;align-items: center'>4</text>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg avatar">
+          <image class="weui-media-box__thumb " src="{{touxiang}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title name">{{userInfo.nickName}}</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg value">
+          <view class="weui-media-box__title">1000.23</view>
+          <view class="weui-media-box__desc" style=' display: flex;justify-content: center;'>千卡</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg dianzan">
+          <view class="weui-media-box__title" style=' display: flex;justify-content: center;'>3</view>
+          <image class="weui-media-box__desc" src="{{dianzan1}}" />
+        </view>
+      </view>
+
+      <view class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg No">
+          <text style='display: flex;align-items: center'>5</text>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg avatar">
+          <image class="weui-media-box__thumb " src="{{touxiang}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title name">{{userInfo.nickName}}</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg value">
+          <view class="weui-media-box__title">1000.23</view>
+          <view class="weui-media-box__desc" style=' display: flex;justify-content: center;'>千卡</view>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg dianzan">
+          <view class="weui-media-box__title" style=' display: flex;justify-content: center;'>3</view>
+          <image class="weui-media-box__desc" src="{{dianzan1}}" />
+        </view>
+      </view>
+  </view>
+</view>

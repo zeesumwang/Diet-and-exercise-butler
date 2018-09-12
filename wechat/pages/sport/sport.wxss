@@ -1,0 +1,124 @@
+.history{
+  width: 100%;
+  background-color: white;
+  padding-top: 50rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+}
+.date{
+  width: 220rpx;
+  height:60rpx; 
+  font-size: 28rpx;
+  background-color: #eeeeee;
+  padding-left: 10rpx;
+  padding-right: 0rpx;
+  margin-left: 30rpx;
+  margin-right: 0rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 100rpx;
+}
+.date text{
+  width: 170rpx;
+  padding-left: 10rpx;
+}
+.chaxun{
+  width: 100rpx;
+  height:60rpx;
+  font-size: 28rpx;
+  color:white;
+  background-color: #00bcd4;
+  display: flex;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-right: 0rpx;  
+  border-radius: 100rpx;
+}
+.chaxun{
+  display: flex;
+  justify-content: center;
+}
+.lishi{
+  height:60rpx;
+  color: #00bcd4;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  margin-left: 215rpx;
+}
+.kaluli{
+  color: #999999;
+  font-size: 32rpx;
+  padding-left: 30rpx;
+}
+.kaluli-value{
+  font-size: 32rpx;
+}
+.jibu{
+  height: 70rpx;
+  background-color: white;
+  padding-top: 10rpx;
+}
+.jibu text{
+  font-size: 40rpx;
+  font-weight: 500;
+  padding-left: 30rpx;
+  margin-right: 430rpx;
+}
+.juxing1{
+  width: 100%;
+  height: 1rpx;
+}
+.bushut{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.bushut text{
+  font-size: 31rpx;
+  color: #999999;
+  padding-top: 40rpx;
+  padding-bottom: 10rpx;
+}
+.bushu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bushu text{
+  font-size: 40rpx;
+  font-weight: 500;
+  padding-bottom: 30rpx;
+}
+.jiahao{
+  width: 32rpx;
+  height: 32rpx;
+}
+.jinri{
+  height: 70rpx;
+  background-color: white;
+  padding-top: 10rpx;
+  padding-bottom: 0rpx;
+  margin-bottom: 0rpx;
+}
+.jinri text{
+  font-size: 40rpx;
+  font-weight: 500;
+  padding-left: 30rpx;
+  margin-right: 500rpx;
+}
+.juxing2{
+  height: 1rpx;
+  width: 100%;
+  position: relative;
+  top:-20rpx;
+}
+.jinriyundong{
+  font-size: 31rpx;
+  color: #666666;
+}

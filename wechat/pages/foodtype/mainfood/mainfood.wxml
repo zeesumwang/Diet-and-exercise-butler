@@ -1,0 +1,91 @@
+<view class="page">
+    
+    <view class="page__bd">
+      
+      
+        <view class="weui-cells weui-cells_after-title">
+          <button class='show-btn' bindtap="showDialogBtn_1" hover-class="weui-cell_active">
+            <text>谷类</text>
+            <image class="jiahao" src='/images/+.png'></image>
+          </button>
+        </view>
+        <view class="weui-cells weui-cells_after-title">
+          <button class='show-btn' bindtap="showDialogBtn_2" hover-class="weui-cell_active">
+            <text>面食</text>
+            <image class="jiahao" src='/images/+.png'></image>
+          </button>
+        </view>
+        <view class="weui-cells weui-cells_after-title">
+          <button class='show-btn' bindtap="showDialogBtn_3" hover-class="weui-cell_active">
+            <text>豆类</text>
+            <image class="jiahao" src='/images/+.png'></image>
+          </button>
+        </view>
+      
+        
+          
+
+          <!--谷类弹窗-->
+          <view class="modal-mask" bindtap="hideModal_1" catchtouchmove="preventTouchMove" wx:if="{{showModal_1}}"></view>
+          <view class="modal-dialog" wx:if="{{showModal_1}}">
+            <view class="modal-title">谷类</view>
+            <view class="modal-content">
+            <text>每100g谷类含有能量：1500卡蛋白质：10g碳水化合物：59g</text>
+            </view>
+
+            <view class='input'>
+              <text class='info-text'>添加数量：</text>
+             
+              <input type="number" maxlength="7" bindinput="inputChange" class='modal-input' placeholder="100"></input>
+              
+              <text style='color:grey; font-size:30rpx;'>克</text>
+            </view>
+
+            <view class="modal-footer">
+              <view class="btn-cancel" bindtap="onCancel_1" data-status="cancel">取消</view>
+              <view class="btn-confirm" bindtap="onConfirm_1" data-status="confirm">确定</view>
+            </view>
+          </view>
+
+            <!--面食弹窗-->
+          <view class="modal-mask" bindtap="hideModal_2" catchtouchmove="preventTouchMove" wx:if="{{showModal_2}}"></view>
+          <view class="modal-dialog" wx:if="{{showModal_2}}">
+            <view class="modal-title">面食</view>
+            <view class="modal-content">
+            <text>每100g面食含有能量：1688卡蛋白质：8.9g碳水化合物：70g</text>
+            </view>
+            <view class="input">
+              <text class='info-text'>添加数量：</text>
+              <input type="number" maxlength="7" bindinput="inputChange" class="modal-input" placeholder="100"></input>
+              <text style='color:grey; font-size:30rpx;'>克</text>
+            </view>
+            <view class="modal-footer">
+              <view class="btn-cancel" bindtap="onCancel_2" data-status="cancel">取消</view>
+              <view class="btn-confirm" bindtap="onConfirm_2" data-status="confirm">确定</view>
+            </view>
+          </view>
+
+            <!--豆类弹窗-->
+          <view class="modal-mask" bindtap="hideModal_3" catchtouchmove="preventTouchMove" wx:if="{{showModal_3}}"></view>
+          <view class="modal-dialog" wx:if="{{showModal_3}}">
+            <view class="modal-title">豆类</view>
+            <view class="modal-content">
+            <text>每100g豆类含有能量：1200卡蛋白质：50g碳水化合物：68g</text>
+            </view>
+            <view class="input">
+              <text class='info-text'>添加数量：</text>
+              <input type="number" maxlength="7" bindinput="inputChange" class="modal-input" placeholder="100"></input>
+              <text style='color:grey; font-size:30rpx;'>克</text>
+            </view>
+            <view class="modal-footer">
+              <view class="btn-cancel" bindtap="onCancel_3" data-status="cancel">取消</view>
+              <view class="btn-confirm" bindtap="onConfirm_3" data-status="confirm">确定</view>
+            </view>
+          </view>
+        
+        
+      
+      
+    </view>
+
+</view>

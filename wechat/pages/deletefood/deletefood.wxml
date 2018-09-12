@@ -1,0 +1,13 @@
+<!--pages/deletefood/deletefood.wxml-->
+<form>
+  <view class="time weui-cells weui-cells_after-title">
+    <view class="tex1">数量（g）</view>
+    <view class="tex2"><text>1000</text></view>
+  </view>
+
+  <!-- 删除按钮 -->
+  <view class="del">
+  <!-- <button form-type='submit' type="warn"> -->
+    <button form-type='submit' type="warn" bindtap='delBind' plain='true' size=''>删除</button>
+  </view>
+</form>

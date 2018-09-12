@@ -1,0 +1,73 @@
+/**index.wxss**/
+.top{
+  position: absolute;
+  top:50rpx;
+  height: 58rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+}
+.top image{
+  border-radius: 50%;
+}
+.top text{
+  color:white;
+  font-size:28rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user{
+  position: absolute;
+  top:450rpx;
+  width: 100%;
+  margin :0px;
+  padding: 0px;
+}
+.avatar{
+  height: 75rpx;
+  width: 75rpx;
+}
+.avatar image
+{
+  border-radius: 50%;
+}
+.No{
+  height: 75rpx;
+  width: 30rpx;
+}
+.value{
+  position: absolute;
+  left:60%;
+  color: #00bcd4;
+}
+.dianzan{
+  position: absolute;
+  left:88%;
+  width: 38rpx;
+}
+.dianzan view{
+  color: #a9b7b7;
+}
+.dianzan image{
+  height: 32rpx;
+  width: 38rpx;
+}
+.juxing{
+  width: 100%;
+  height: 20rpx;
+  position: absolute;
+  top: 585rpx;
+}
+.paihang{
+  position: absolute;
+  top: 600rpx;
+  width: 100%;
+  margin :0px;
+  padding: 0px;
+}
+.paihang text{
+  height: 80rpx;
+}

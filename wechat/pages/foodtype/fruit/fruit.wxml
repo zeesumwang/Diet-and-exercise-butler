@@ -1,0 +1,87 @@
+<view class="page">
+    
+    <view class="page__bd">
+      
+      
+        <view class="weui-cells weui-cells_after-title">
+          <button class='show-btn' bindtap="showDialogBtn_1" hover-class="weui-cell_active">
+            <text>香蕉</text>
+            <image class="jiahao" src='/images/+.png'></image>
+          </button>
+        </view>
+        <view class="weui-cells weui-cells_after-title">
+          <button class='show-btn' bindtap="showDialogBtn_2" hover-class="weui-cell_active">
+            <text>苹果</text>
+            <image class="jiahao" src='/images/+.png'></image>
+          </button>
+        </view>
+        <view class="weui-cells weui-cells_after-title">
+          <button class='show-btn' bindtap="showDialogBtn_3" hover-class="weui-cell_active">
+            <text>草莓</text>
+            <image class="jiahao" src='/images/+.png'></image>
+          </button>
+        </view>
+      
+        
+          
+
+       <!--香蕉弹窗-->
+          <view class="modal-mask" bindtap="hideModal_1" catchtouchmove="preventTouchMove" wx:if="{{showModal_1}}"></view>
+          <view class="modal-dialog" wx:if="{{showModal_1}}">
+            <view class="modal-title">香蕉</view>
+            <view class="modal-content">
+            <text>每100g香蕉含有能量：680卡蛋白质：5g碳水化合物：23g</text>
+            </view>
+            <view class="input">
+              <text class='info-text'>添加数量：</text>
+              <input type="number" maxlength="7" bindinput="inputChange" class="modal-input" placeholder="100"></input>
+              <text style='color:grey; font-size:30rpx;'>克</text>
+            </view>
+            <view class="modal-footer">
+              <view class="btn-cancel" bindtap="onCancel_1" data-status="cancel">取消</view>
+              <view class="btn-confirm" bindtap="onConfirm_1" data-status="confirm">确定</view>
+            </view>
+          </view>
+
+            <!--苹果弹窗-->
+          <view class="modal-mask" bindtap="hideModal_2" catchtouchmove="preventTouchMove" wx:if="{{showModal_2}}"></view>
+          <view class="modal-dialog" wx:if="{{showModal_2}}">
+            <view class="modal-title">苹果</view>
+            <view class="modal-content">
+            <text>每100g苹果含有能量：320卡蛋白质：5.3g碳水化合物：10g</text>
+            </view>
+            <view class="input">
+              <text class='info-text'>添加数量：</text>
+              <input type="number" maxlength="7" bindinput="inputChange" class="modal-input" placeholder="100"></input>
+              <text style='color:grey; font-size:30rpx;'>克</text>
+            </view>
+            <view class="modal-footer">
+              <view class="btn-cancel" bindtap="onCancel_2" data-status="cancel">取消</view>
+              <view class="btn-confirm" bindtap="onConfirm_2" data-status="confirm">确定</view>
+            </view>
+          </view>
+
+            <!--草莓弹窗-->
+          <view class="modal-mask" bindtap="hideModal_3" catchtouchmove="preventTouchMove" wx:if="{{showModal_3}}"></view>
+          <view class="modal-dialog" wx:if="{{showModal_3}}">
+            <view class="modal-title">草莓</view>
+            <view class="modal-content">
+            <text>每100g草莓含有能量：580卡蛋白质：9g碳水化合物：30g</text>
+            </view>
+            <view class="input">
+              <text class='info-text'>添加数量：</text>
+              <input type="number" maxlength="7" bindinput="inputChange" class="modal-input" placeholder="100"></input>
+              <text style='color:grey; font-size:30rpx;'>克</text>
+            </view>
+            <view class="modal-footer">
+              <view class="btn-cancel" bindtap="onCancel_3" data-status="cancel">取消</view>
+              <view class="btn-confirm" bindtap="onConfirm_3" data-status="confirm">确定</view>
+            </view>
+          </view>
+        
+        
+      
+      
+    </view>
+
+</view>

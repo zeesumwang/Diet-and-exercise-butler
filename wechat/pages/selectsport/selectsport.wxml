@@ -1,0 +1,49 @@
+<!--pages/selectsport/selectsport.wxml-->
+<!-- <text>pages/selectsport/selectsport.wxml</text> -->
+<!-- 走路容器 -->
+
+<view class="section weui-cells weui-cells_after-title">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      <view class="label">
+        走路(3km/h){{array[index]}}
+      </view>
+      <view class='qianka'>
+        <image class="icon" src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/pickerArrow-a8b918f05f.png"></image>
+        <text>8.6千卡</text>
+      </view>
+    </view>
+  </picker>
+</view>
+
+
+<!-- 慢跑容器 -->
+<view class="section weui-cells weui-cells_after-title">
+  <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array}}">
+    <view class="picker">
+      <view class="label">
+        慢跑(10km/h){{array[index]}}
+      </view>
+      <view class='qianka'>
+        <image class="icon" src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/pickerArrow-a8b918f05f.png"></image>
+        <text>9.49千卡</text>
+      </view>
+    </view>
+  </picker>
+</view>
+
+<!-- 上下楼容器 -->
+<view class="section weui-cells weui-cells_after-title">
+  <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array}}">
+    <view class="picker">
+      <view class="label">
+        上下楼(3km/h){{array[index]}}
+      </view>
+      <view class='qianka'>
+        <image class="icon" src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/pickerArrow-a8b918f05f.png"></image>
+        <text>11.2千卡</text>
+      </view>
+    </view>
+  </picker>
+</view>
+
